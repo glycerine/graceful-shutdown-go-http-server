@@ -1,2 +1,8 @@
 # graceful-shutdown-go-http-server
-extracted, slimmed to the bare essentials, and modified slightly from Richard Crowley's go-tigertonic project
+
+This code has been extracted, slimmed to the bare essentials, and modified slightly from the original. The original source code is from Richard Crowley's go-tigertonic project, located at https://github.com/rcrowley/go-tigertonic.
+
+This is just the essentials to get a gracefully-stoppable web-server. Go Tigertonic provides a wealth of other features that we don't require.
+
+We also allow setting the timeouts for reads on the webserver, which is highly useful, in fact critical, from rapid testing.
+
