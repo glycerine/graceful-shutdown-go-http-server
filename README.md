@@ -6,3 +6,7 @@ This is just the essentials to get a gracefully-stoppable web-server. Go Tigerto
 
 We also allow setting the timeouts for reads on the webserver, which is highly useful, in fact critical, for rapid testing. When your tests create and destroy web servers quickly, use this project and set the timeout parameter on your calls to NewCustomHttpServer() to something small; e.g. <= 500 msec to avoid long test-shutdown times.
 
+Copyright (c) 2015 Jason E. Aten, Ph.D.
+Copyright (c) 2013 Richard Crowley.
+
+License: 2-clause BSD, see LICENSE file.
